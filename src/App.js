@@ -1,8 +1,11 @@
 import React from 'react';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
 function App() {
   return (
     <div className="App">
-      <h1>Hello from coffee Roasters</h1>
+      <Nav/>
+      <Footer/>
     </div>
   );
 }
