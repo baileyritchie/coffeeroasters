@@ -1,0 +1,30 @@
+.coffee-quiz-section{
+  margin: 0px 165px;
+}
+.coffee-quiz-container{
+  width: 255px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* mobile */
+@media screen and (max-width:600px) {
+  .coffee-quiz-section{
+    margin: 40px 0px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .coffee-quiz-container{
+    height: auto;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

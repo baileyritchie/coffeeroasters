@@ -1,0 +1,63 @@
+.coffee-quiz-bar{
+  margin-right: 125px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.quiz-progress-bar{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.quiz-progress-bar.inactive{
+  opacity:0.4;
+}
+
+.quiz-progress-dividor{
+  width: 100%;
+  color:#83888F;
+  margin-top: -2px;
+  border-top: 0.5px solid #979797;
+}
+.quiz-progress-num{
+  color:#0E8784;
+  margin-right: 29px;
+  width:30px;
+  font-size: 24px;
+  line-height: 32px;
+}
+.quiz-progress-title{
+  color:#333D4B;
+  width: 152px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 600px) {
+  .coffee-quiz-bar {
+    visibility: hidden;
+    width: 0px; 
+    height: 0px;
+  }
+  .quiz-progress-bar{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+  
+  .quiz-progress-dividor{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+  }
+  .quiz-progress-num{
+    height: 0px;
+    width: 0px;
+  }
+  .quiz-progress-title{
+    height: 0px;
+    width: 0px;
+  }
+}

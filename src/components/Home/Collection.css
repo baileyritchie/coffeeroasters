@@ -1,0 +1,101 @@
+/* collections */
+
+.collection-section {
+  margin: 0px 164px;
+  width: 1111px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 180px;
+}
+.collection-section-title {
+  width: inherit;
+  font-size: 150px;
+  background: -webkit-linear-gradient(#83888F, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: -60px;
+}
+.collection-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection-image {
+  height: 193px;
+  width: 255px;
+}
+.collection-title {
+  margin: 12px 30px;
+  text-align: center;
+}
+.collection-descrip {
+  color: #333d4b;
+  margin: 0px 30px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+@media screen and (max-width:600px) {
+  .collection-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 327px;
+    margin: 0px 0px;
+  }
+  .collection-section-title {
+    width: 100%;
+    font-size: 32px;
+    background: -webkit-linear-gradient(#979797, rgb(223, 223, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  .collection-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .collection {
+    margin: 12px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .collection-image {
+    height: 151px;
+    width: 200px;
+  }
+  .collection-title {
+    width: 282px;
+    margin: 0px 0px;
+    text-align: center;
+  }
+  .collection-descrip {
+    width: 282px;
+    color: #333d4b;
+    margin: 0px 0px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+}

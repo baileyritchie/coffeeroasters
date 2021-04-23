@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css';
-
+import fb from '../assets/shared/desktop/icon-facebook.svg';
+import ig from '../assets/shared/desktop/icon-instagram.svg';
+import twitter from '../assets/shared/desktop/icon-twitter.svg';
 export default function Footer() {
   return (
     <section className="footer">
@@ -13,15 +15,15 @@ export default function Footer() {
               Coffee Roasters
             </h1>
             <ul className="footer-nav-container">
-              <li className="footer-nav-link">Home</li>
-              <li className="footer-nav-link">About Us</li>
-              <li className="footer-nav-link">Create Your Plan</li>
+              <a className="footer-nav-link" href='/'>Home</a>
+              <a className="footer-nav-link" href='/about'>About Us</a>
+              <a className="footer-nav-link" href='/createplan'>Create Your Plan</a>
             </ul>
           </div>
           <div className="footer-socials-container">
-            <img className="footer-social" src="/assets/shared/desktop/icon-facebook.svg" />
-            <img className="footer-social" src="/assets/shared/desktop/icon-twitter.svg" />
-            <img className="footer-social" src="/assets/shared/desktop/icon-instagram.svg" />
+            <img className="footer-social" src={fb} />
+            <img className="footer-social" src={ig} />
+            <img className="footer-social" src={twitter} />
           </div>
         </div>
       </section>

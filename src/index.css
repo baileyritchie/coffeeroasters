@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@400&display=swap");
+
 body {
   background-color: #fefcf7;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 h1,
 h2,
@@ -13,3 +19,4 @@ p,
 li {
   font-family: "Barlow", sans-serif;
 }
+

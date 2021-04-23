@@ -1,0 +1,110 @@
+/* headquarters section */
+.hq-section{
+  margin: 80px 165px;
+}
+.hq-section-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hq-section-header{
+  color: #83888F;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.hq-section-countries{
+  width:1045px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hq-section-country{
+  width: 285px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hq-country-img{
+  padding: 12px 0px;
+}
+.hq-country-name{
+  margin-bottom: 12px;
+  color: #333D4B;
+  font-size: 32px;
+}
+.hq-country-address{
+  display: inline-block;
+  padding: 0px 0px;
+  margin:0px 0px;
+}
+.hq-country-address-line{
+  padding: 0px 0px;
+  margin:0px 0px;
+  color: #333D4B;
+  font-size: 16px;
+  width: 100%;
+  line-height: 26px;
+}
+
+/* mobile */
+
+
+@media  screen and (max-width: 600px) {
+  .hq-section{
+    margin: 0px 0px;
+    margin-bottom: 40px;
+  }
+  .hq-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hq-section-header{
+    color: #83888F;
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .hq-section-countries{
+    width:327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .hq-section-country{
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  .hq-country-img{
+    padding: 12px 0px;
+  }
+  .hq-country-name{
+    margin-bottom: 12px;
+    color: #333D4B;
+    font-size: 32px;
+  }
+  .hq-country-address{
+    
+    display: inline-block;
+    padding: 0px 0px;
+    margin:0px 0px;
+  }
+  .hq-country-address-line{
+    padding: 0px 0px;
+    margin:0px 0px;
+    color: #333D4B;
+    font-size: 16px;
+    width: 100%;
+    line-height: 26px;
+  }
+}

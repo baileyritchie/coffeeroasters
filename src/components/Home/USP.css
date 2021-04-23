@@ -1,0 +1,140 @@
+/* USP section */
+
+.usp-section {
+  margin: -80px 80px 0px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c343e;
+  border-radius: 10px;
+  
+}
+.usp-headline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FEFCF7;
+  padding-top: 60px;
+  padding-bottom: 240px;
+}
+.usp-header {
+  width: 540px;
+  text-align: center;
+}
+
+.usp-subheader {
+  width: 540px;
+  text-align: center;
+}
+.usps-containers {
+  margin: 0px 80px;
+  margin-top: -191px;
+  margin-bottom: -100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.usp {
+  height: 382px;
+  width: 350px;
+  background-color: #0e8784;
+  color: #FEFCF7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.usp-icon {
+  height: 72px;
+}
+
+.usp-title {
+  text-align: center;
+  width: 255px;
+  font-size: 32px;
+  height: 32px;
+}
+
+.usp-descrip {
+  text-align: center;
+  width: 255px;
+  font-size: 16px;
+  height: 78px;
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+  .usp-section {
+    margin: 0px 0px;
+    width: 327px;
+    height: 902px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #2c343e;
+    border-radius: 10px;
+  }
+  .usp-headline-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FEFCF7;
+    width: inherit;
+  }
+  .usp-header {
+    width: 279px;
+    text-align: center;
+  }
+  
+  .usp-subheader {
+    width: 279px;
+    text-align: center;
+  }
+  .usps-containers {
+
+    margin: 0px 0px;
+    margin-top: -560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .usp {
+    height: 382px;
+    width: 279px;
+    background-color: #0e8784;
+    color: #FEFCF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  .usp-icon {
+    height: 72px;
+  }
+  
+  .usp-title {
+    text-align: center;
+    width: 255px;
+    font-size: 32px;
+    height: 32px;
+  }
+  
+  .usp-descrip {
+    text-align: center;
+    width: 255px;
+    font-size: 16px;
+    height: 78px;
+  }
+}

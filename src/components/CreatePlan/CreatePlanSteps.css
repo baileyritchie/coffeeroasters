@@ -1,0 +1,129 @@
+/* create plan steps section */
+.plan-how-it-works-section {
+  margin: 60px 80px;
+  background: url("../../assets/plan/desktop/bg-steps.png");
+  border-radius: 10px;
+}
+.plan-how-it-works {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.plan-how-it-works-img {
+  padding: 0px 0px;
+}
+.plan-how-it-works-info {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content:center;
+  width: inherit;
+  color: #FEFCF7;
+  margin-left: 132.5px;
+  margin-top: 100px;
+}
+
+.plan-how-it-works-container {
+  height: 565px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+.plan-step {
+  margin-right: 31.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.plan-step-number{
+  color:#FDD6BA;
+  font-size: 72px;
+  margin-bottom: -20px;
+}
+
+.plan-step-title{
+  font-size: 32px;
+  width: 255px;
+  height: 80px;
+}
+.plan-step-descrip{
+  font-size: 16px;
+  width: 285px;
+  height: 160px;
+}
+
+/* mobile */ 
+
+@media screen and (max-width: 600px) {
+  .plan-how-it-works-section {
+    margin: 40px 0px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background: url("../../assets/plan/desktop/bg-steps.png");
+    border-radius: 10px;
+    width: 327px;
+  
+  }
+  .plan-how-it-works {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .plan-how-it-works-img {
+    padding: 0px 0px;
+    height:0px;
+  }
+  .plan-how-it-works-info {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width: inherit;
+    color: #FEFCF7;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  .plan-how-it-works-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .plan-step {
+    width: inherit;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .plan-step-number{
+    color:#FDD6BA;
+    font-size: 72px;
+    margin-bottom: 0px;
+  }
+  
+  .plan-step-title{
+    font-size: 28px;
+    width: 327px;
+    height: auto;
+  }
+  .plan-step-descrip{
+    width: 96%;
+    font-size: 16px;
+    height: auto;
+    line-height: 25px;
+  }
+}

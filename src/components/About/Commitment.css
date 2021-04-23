@@ -1,0 +1,67 @@
+/* commitment section */
+.commitment-section{
+  margin: 120px 165px;
+}
+.commitment-section-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.commitment-section-img{
+  border-radius: 8px;
+}
+.commitment-section-text{
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.commitment-section-title{
+  font-size: 40px;
+  color: #333D4B;
+}
+.commitment-section-descrip{
+  font-size: 16px;
+  color: #333D4B;
+}
+
+/* mobile */
+@media screen and (max-width:600px) {
+  .commitment-section{
+    margin: 20px 0px;
+  }
+  .commitment-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .commitment-section-img{
+    border-radius: 8px;
+    width: 327px;
+    height: 400px;
+  }
+  .commitment-section-text{
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+  }
+  .commitment-section-title{
+    width: inherit;
+    text-align: center;
+    font-size: 32px;
+    color: #333D4B;
+  }
+  .commitment-section-descrip{
+    width: inherit;
+    font-size: 16px;
+    color: #333D4B;
+  }
+}

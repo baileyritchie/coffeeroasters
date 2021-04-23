@@ -1,0 +1,100 @@
+/* hero */
+
+.hero {
+  margin: 0px 80px;
+  background-image: url('../../assets/home/desktop/image-hero-coffeepress.jpg');
+  border-radius: 6px;
+  width:1280px;
+  height: 600px;
+}
+.hero-container {
+  margin-left: 70px;
+  height: 367px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero-headline {
+  margin-top: 200px;
+  margin-bottom: -5px;
+  color: #FEFCF7;
+  font-size: 72px;
+  width: 493px;
+}
+
+.hero-subheader {
+  width: 493px;
+  color: #FEFCF7;
+  font-size: 16px;
+  line-height: 26px;
+}
+.home-hero-button {
+  margin-top: 44px;
+  color: white;
+  background-color: #0e8784;
+  padding:12px 0px;
+  height: 56px;
+  width: 217px;
+  border: solid transparent;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.home-hero-button:hover {
+  background-color: #66d2cf;
+}
+
+/* mobile */
+
+@media screen and (max-width: 600px){
+  .hero {
+    margin: 10px 0px;
+    background-position-x: 70%;
+    background-position-y: 50%;
+    background-image: url('../../assets/home/desktop/image-hero-coffeepress.jpg');
+    border-radius: 6px;
+    width:327px;
+    height: 500px;
+  }
+  .hero-container {
+    width:279px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 25px;
+  }
+  
+  .hero-headline {
+    height: inherit;
+    text-align: center;
+    
+    width:279px;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .hero-subheader {
+    text-align: center;
+    height: inherit;
+    width:279px;
+    color: white;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .home-hero-button {
+    color: white;
+    background-color: #0e8784;
+    height: 56px;
+    width: 217px;
+    border: solid transparent;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+  
+  .home-hero-button:hover {
+    background-color: #66d2cf;
+  }
+}
